@@ -1,0 +1,61 @@
+Reddit Sentiment Analyzer
+
+Project Overview
+A full-stack web application that performs real-time sentiment analysis on Reddit post titles, providing insights into public opinion trends. Built with modern web technologies and machine learning capabilities.
+
+Key Technical Features
+- Real-time Sentiment Analysis: Processes Reddit post titles using a pre-trained DistilBERT model
+- Interactive Data Visualization: Dynamic charts showing sentiment trends over time
+- RESTful API Architecture: FastAPI backend with efficient request handling
+- Modern React Frontend: Responsive UI with Material-UI components
+- Real-time Data Processing: Analyzes and visualizes sentiment data on the fly
+
+Technical Implementation
+
+Backend Architecture
+- FastAPI Framework: High-performance Python web framework
+- Hugging Face Transformers: Leveraging pre-trained DistilBERT model for sentiment analysis
+- PRAW Library: Python Reddit API Wrapper for Reddit data extraction
+- SQLite Database: Lightweight data storage for caching and persistence
+- Environment Configuration: Secure credential management using python-dotenv
+
+Frontend Implementation
+- React.js: Modern component-based UI development
+- Material-UI: Professional UI components and theming
+- Recharts: Interactive data visualization library
+- Axios: Promise-based HTTP client for API communication
+- Responsive Design: Mobile-friendly interface with adaptive layouts
+
+Machine Learning Integration
+- Pre-trained Model: DistilBERT-base-uncased-finetuned-sst-2-english
+- Sentiment Analysis Pipeline: Custom scoring system (-1 to 1 scale)
+- Real-time Processing: On-the-fly sentiment analysis of Reddit posts
+- Trend Analysis: Weekly sentiment tracking and visualization
+
+Development Tools & Environment
+- Python 3.11: Backend development
+- Node.js & npm: Frontend development and package management
+- Virtual Environment: Python venv for dependency isolation
+- Git: Version control and collaboration
+- VS Code: Development environment with extensions
+
+Technical Stack
+Backend:
+- FastAPI
+- Hugging Face Transformers
+- PRAW
+- SQLite
+- Python 3.11
+
+Frontend:
+- React.js
+- Material-UI
+- Recharts
+- Axios
+- CSS3
+
+Development Tools:
+- Git
+- VS Code
+- npm
+- pip
